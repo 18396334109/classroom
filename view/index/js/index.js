@@ -1,7 +1,13 @@
-var mySwiper = new Swiper('.swiper-container', {
-    // autoplay: true, //可选选项，自动滑动
-    direction: 'horizontal',
-    slidesPerView: 6,
-    slidesPerGroup: 6,
-    spaceBetween: 10,
+$(function(){
+    
 })
+
+// var mySwiper = new Swiper('.swiper-container', {
+//     // autoplay: true, //可选选项，自动滑动
+//     direction: 'horizontal',
+//     slidesPerView: 'auto',
+//     // slidesPerGroup: 1,
+//     spaceBetween: 20,
+//     // centeredSlides:'center'
+// })
+
