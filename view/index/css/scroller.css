@@ -1,0 +1,82 @@
+::-webkit-scrollbar {
+    /* 滚动条整体部分 */
+    width: 5px;
+    margin-right: 2px
+}
+
+::-webkit-scrollbar-button {
+    /* 滚动条两端的按钮 */
+    width: 5px;
+    background-color: e6;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 5px;
+    margin-bottom: 2px
+}
+
+::-webkit-scrollbar-track {
+    /* 外层轨道 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+    /*内层轨道，滚动条中间部分 */
+    background-color: #CBCBCB;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* 滑块 */
+    width: 10px;
+    border-radius: 5px;
+    background: #909090;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* 鼠标移入滑块 */
+    background: #707070;
+}
+
+
+/* firefox */
+
+::-moz-scrollbar {
+    /* 滚动条整体部分 */
+    width: 5px;
+    margin-right: 2px
+}
+
+::-moz-scrollbar-button {
+    /* 滚动条两端的按钮 */
+    width: 5px;
+    background-color: e6;
+}
+
+::-moz-scrollbar:horizontal {
+    height: 5px;
+    margin-bottom: 2px
+}
+
+::-moz-scrollbar-track {
+    /* 外层轨道 */
+    border-radius: 10px;
+}
+
+::-moz-scrollbar-track-piece {
+    /*内层轨道，滚动条中间部分 */
+    background-color: #CBCBCB;
+    border-radius: 10px;
+}
+
+::-moz-scrollbar-thumb {
+    /* 滑块 */
+    width: 10px;
+    border-radius: 5px;
+    background: #909090;
+}
+
+::-moz-scrollbar-thumb:hover {
+    /* 鼠标移入滑块 */
+    background: #707070;
+}

@@ -20,11 +20,11 @@
     <link rel="stylesheet" href="../../css/loader.css">
 
     <!-- MetisMenu CSS -->
-	<link rel="stylesheet" href="../../assets//plugins/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="../../assets//plugins/metisMenu/metisMenu.min.css">
 
-	<!-- Custom CSS -->
-	<link rel="stylesheet" href="../../css/kavach.min.css">
-	<link rel="stylesheet" href="../../css/animate.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/kavach.min.css">
+    <link rel="stylesheet" href="../../css/animate.css">
 
     <!-- Change Color CSS -->
     <link rel="stylesheet" href="../../css/skin/sea-blue-skin.css" />
@@ -32,84 +32,90 @@
     <!-- swiper -->
     <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
 
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/layout.css">
+    <!-- timeline -->
+    <link rel="stylesheet" href="css/jquery.jqtimeline.css">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/scroller.css">
 
 </head>
 
 <body>
-		<nav class="navbar navbar-default navbar-static-top">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			<a class="navbar-brand" href="#"><img src="../../assets/img/head-logo.png" class="img-responsive" alt="Logo"></a>
-			</div>
-		</nav>
-        <div class="container-fluid">
-                <div class="row education-module">
-					<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-						<div class="col-md-3 col-lg-3 col-sm-12 col-xs-12 video-container">
-								<iframe src="http://jq22.qiniudn.com/www.jq22.commi4.webm"></iframe>
-								<div class="tab-box tab-info" >
-									<div class="tab" role="tabpanel">
-										<!-- Nav tabs -->
-										<ul class="nav nav-tabs" role="tablist">
-											<li role="presentation" class="active"><a href="#Section1" role="tab" data-toggle="tab" aria-expanded="true">学生列表</a></li>
-											<li role="presentation" class=""><a href="#Section2" role="tab" data-toggle="tab" aria-expanded="false">今日重点</a></li>
-											<li role="presentation" class=""><a href="#Section3" role="tab" data-toggle="tab" aria-expanded="false">聊天列表</a></li>
-										</ul>
-										<!-- Tab panes -->
-										<div class="tab-content simple-tabs">
-											<div role="tabpanel" class="tab-pane fade active in" id="Section1">
-												<ul>
-													<li>student1</li>
-													<li>student2</li>
-													<li>student3</li>
-													<li>student4</li>
-													<li>student5</li>
-													<li>student6</li>
-													<li>student7</li>
-													<li>student8</li>
-												</ul>
-											</div>
-											<div role="tabpanel" class="tab-pane fade" id="Section2">
-												<h4>How To Work?</h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis.</p>
-											</div>
-											<div role="tabpanel" class="tab-pane fade" id="Section3">
-												<h4>What is Work Process?</h4>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis.</p>
-											</div>
-										</div>
-									</div>
-								</div>
-						</div>
-						<div class="col-md-9 col-lg-9 col-sm-12 col-xs-12 material-container">
-							 <div class="card blackboard">
-								<div class="card-header">
-									<img src="./img/header.jpeg" class="teacher-img" alt="">
-								</div>
-								<div class="card-body">
-									<img src="./img/course.jpg">
-								</div>
-								<div class="card-detail-bottom">
-									<ul class="card-whole-detail">
-										<li><span>Target</span>$12000</li>
-										<li><span>Last Week</span>$714</li>
-										<li><span>Last Month</span>$970</li>
-									</ul>
-								</div>
-							 </div>
-						</div>
-						
-						<br class="clear">
-					</div>
+    <header></header>
+    <div class="container-fluid">
+        <div class="row education-module">
+            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                <div class="col-md-4 col-lg-3 col-sm-12 col-xs-12 video-container">
+                    <video src="http://jq22.qiniudn.com/www.jq22.commi4.webm" controls></video>
+                    <div class="tab-box tab-info">
+                        <div class="tab" role="tabpanel" id="section-tabs">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active "><a href="#StudentList" role="tab" data-toggle="tab" aria-expanded="true">学生列表</a></li>
+                                <li role="presentation" class=""><a href="#TodayFocus" role="tab" data-toggle="tab" aria-expanded="false">今日重点</a></li>
+                                <li role="presentation" class=""><a href="#chatPanel" role="tab" data-toggle="tab" aria-expanded="false">聊天信息</a></li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <div class="tab-content simple-tabs">
+                                <div role="tabpanel" class="tab-pane fade active in" id="StudentList">
+                                    <ul>
+                                        <li>student1</li>
+                                        <li>student2</li>
+                                        <li>student3</li>
+                                        <li>student4</li>
+                                        <li>student5</li>
+                                        <li>student6</li>
+                                        <li>student7</li>
+                                        <li>student8</li>
+                                        <li>student9</li>
+                                        <li>student10</li>
+                                        <li>student11</li>
+                                        <li>student12</li>
+                                        <li>student13</li>
+                                        <li>student14</li>
+                                        <li>student15</li>
+                                        <li>student16</li>
+                                    </ul>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="TodayFocus">
+                                    <h4>How To Work?</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec urna aliquam, ornare eros vel, malesuada lorem. Nullam faucibus lorem at eros consectetur lobortis.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="chatPanel">
+                                    <p class="chatBody">12a31s3d54q65w465wqe6q</p>
+                                    <p class="chatFooter">
+                                        <input type="text" id="Message">
+                                        <button class="btn btn-info" onclick="sendMessage()">发送</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- <div class="row student-video-list">
+                <div class="col-md-8 col-lg-9 col-sm-12 col-xs-12 material-container">
+                    <div class="card blackboard">
+                        <div class="card-header">
+                            <img src="./img/header.jpeg" class="teacher-img" alt="">
+                        </div>
+                        <div class="card-body">
+                            <img src="./img/course.jpg" class="text-img">
+                        </div>
+                        <div class="card-detail-bottom">
+                            <ul class="card-whole-detail">
+                                <li></li>
+                                <li></li>
+                                <li><i class="fa fa-pencil icon"></i><i class="fa fa-pencil icon"></i><i class="fa fa-pencil icon"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <br class="clear">
+            </div>
+        </div>
+        <div id="myTimeline" class="col-sm-12 col-xs-12"></div>
+        <!-- <div class="row student-video-list">
                     <div class="col-lg-12 col-md-12 col-sm-12 ">
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
@@ -136,7 +142,7 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
+    </div>
 
     <!-- jQuery -->
     <script src="../../assets/plugins/jquery/dist/jquery.min.js"></script>
@@ -146,6 +152,9 @@
 
     <!-- swiper -->
     <!-- <script src="./js/swiper.min.js"></script> -->
+
+    <!-- timeline -->
+    <script src="./js/jquery.jqtimeline.js"></script>
 
     <script src="./js/index.js"></script>
 

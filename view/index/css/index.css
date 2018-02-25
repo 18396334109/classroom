@@ -1,16 +1,12 @@
-.navbar {
+header {
+    height: 45px;
     box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
-    margin-bottom: 35px;
-    
-}
-.container-fluid{
-    margin-top: 55px;
+    background: #fff;
 }
 
 .education-module {
-    margin-top: 35px;
+    margin-top: 45px;
     margin-bottom: 25px;
-
 }
 
 .education-module .card-body {
@@ -29,9 +25,9 @@
 
 .blackboard .card-body img {
     width: 100%;
-    height: 600px;
 }
-.card-body{
+
+.card-body {
     /* width: 600px; */
 }
 
@@ -54,28 +50,97 @@
     background-color: #262626;
     /* border-radius: 10%; */
 }
-.swiper-slide:hover{
-}
-iframe{
+
+.swiper-slide:hover {}
+
+video {
     width: 100%;
     height: 245px;
+    background: #000;
 }
-iframe{ 
-    border:0;
-    font:inherit; 
-    font-size:100%; 
-    margin:0; 
-    padding:0; 
-    vertical-align:baseline;
+
+video {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
 }
-.video-container,.material-container {
+
+.video-container,
+.material-container {
     /* background-color:#000; */
     /* height:600px; */
     overflow: hidden;
 }
-.teacher-img{
-    width: 50px;
-    height: 50px;
+
+.teacher-img {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
-.tab-info{}
+
+.tab .nav-tabs li a {
+    padding: 10px;
+}
+
+
+/* .tab-content .simple-tabs {
+    height: 100%;
+    padding: 0px;
+} */
+
+#section-tabs {
+    width: 100%;
+    /* height: 260px; */
+    margin: 0 auto;
+}
+
+#StudentList {
+    min-height: 155px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+#chatPanel {
+    position: relative;
+}
+
+.chatBody {
+    min-height: 110px;
+    overflow-y: auto;
+    max-height: 155px;
+}
+
+#TodayFocus {
+    min-height: 155px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+.chatFooter {
+    /* position: absolute;
+    bottom: 0; */
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    width: 100%;
+}
+
+.chatFooter input {
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.icon {
+    width: 30px;
+}
+
+
+/* #myTimeline {
+    position: fixed;
+    bottom: 0px;
+} *
