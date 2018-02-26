@@ -1,36 +1,35 @@
 $(function() {
+    $('[data-toggle="tooltip"]').tooltip();
     getWindowHeight();
+    //首页大事记
+    $('.course_nr li').hover(function(){
+
+        $(this).find('.shiji').slideDown(600);
+
+    },function(){
+
+        $(this).find('.shiji').slideUp(400);
+
+    });
 })
 
-// Create an array of event object. Events can be added and deleted dynamically
-var ev = [
-    { id: 1, name: 'I used jqtimeline plugin.', on: new Date() },
-    { id: 2, name: 'do homework.', on: new Date(2017, 5, 19) },
-    { id: 3, name: 'do homework.', on: new Date(2017, 6, 19) },
-    { id: 4, name: 'do homework.', on: new Date(2017, 7, 19) },
-    { id: 5, name: 'do homework.', on: new Date(2017, 8, 19) },
-    { id: 6, name: 'do homework.', on: new Date(2018, 5, 19) },
-    { id: 7, name: 'do homework.', on: new Date(2018, 6, 19) },
-    { id: 8, name: 'do homework.', on: new Date(2018, 7, 19) },
-    { id: 9, name: 'do homework.', on: new Date(2018, 8, 19) },
-    { id: 10, name: 'do homework.', on: new Date(2019, 5, 19) },
-    { id: 11, name: 'do homework.', on: new Date(2019, 6, 19) },
-    { id: 12, name: 'do homework.', on: new Date(2019, 7, 19) },
-    { id: 13, name: 'do homework.', on: new Date(2019, 8, 19) }
-];
-
-//Call the plugin constructor
-$('#myTimeline').jqtimeline({ events: ev });
 
 function getWindowHeight() {
-    var h = screen.height * 0.5;
-    $(".text-img").css("height", h);
+    var blackboard = screen.height * 0.63;
+    var infoPanel = screen.height * 0.38;
+    var chatPanel = screen.height * 0.25;
+    $(".text-img").css("height", blackboard);
+    $("#StudentList").css("min-height", infoPanel);
+    $("#TodayFocus").css("min-height", infoPanel);
+    $(".chatBody").css("min-height", chatPanel);
 }
 
 function sendMessage() {
     var Message = $("#Message").val();
-    var data = '<p><button class="btn btn-info btn-sm">' + Message + '</button></p>';
+    var time = new Date();
+    var data = '<p style="text-align:center">'+ time.toLocaleDateString()+time.toLocaleTimeString()+'</p>'+'<p>' + Message + '</p>';
     $(".chatBody").append(data);
+    $("#Message").val('');
 }
 
 

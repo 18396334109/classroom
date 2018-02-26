@@ -1,0 +1,9 @@
+
+.course h1{font-weight:normal; font-size:12px;}
+.course ul,dl{ list-style-type:none;}
+.course li{vertical-align:top;}
+.course{ height: auto; background:#FFF;}
+.course_nr{background:url(ico9.gif) repeat-x center;}
+.course_nr li{ float:left; background:url(ico10.gif) no-repeat center top; padding-top:30px; width:140px; text-align:center; position:relative; margin-top:28px;}
+.shiji{ position:absolute; width:100%; left:0; top:-20px; display:none;}
+.shiji h1{ height:67px; line-height:67px; color:#518dbb; font-weight:bold; background:url(ico11.gif) no-repeat center top; margin-bottom:8px;}

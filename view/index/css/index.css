@@ -1,9 +1,16 @@
+.container-fluid{
+    padding: 0px;
+}
 header {
     height: 45px;
     box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
     background: #fff;
 }
-
+footer{
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+}
 .education-module {
     margin-top: 45px;
     margin-bottom: 25px;
@@ -30,28 +37,6 @@ header {
 .card-body {
     /* width: 600px; */
 }
-
-.swiper-container {
-    width: 100%;
-    height: 10.5rem;
-    padding: 15px;
-    background: rgba(255, 255, 255, 0.582);
-    display: flex;
-    /*Flex布局*/
-    display: -webkit-flex;
-    /* Safari */
-    align-items: center;
-    /*指定垂直居中*/
-}
-
-.swiper-slide {
-    width: 13.5rem;
-    /* height: 80%; */
-    background-color: #262626;
-    /* border-radius: 10%; */
-}
-
-.swiper-slide:hover {}
 
 video {
     width: 100%;
@@ -80,9 +65,15 @@ video {
     height: 40px;
     border-radius: 50%;
 }
-
+.tab .nav-tabs li{
+    width: 33%;
+    display: flex;
+    display: -webkit-flex;
+    align-items:center; 
+}
 .tab .nav-tabs li a {
-    padding: 10px;
+    text-align: center;  
+    width: 100%;
 }
 
 
@@ -101,19 +92,25 @@ video {
     min-height: 155px;
     overflow-y: auto;
     max-height: 200px;
+    padding: 15px;
+    background: #fdfdfd;
 }
-
 #chatPanel {
     position: relative;
 }
 
 .chatBody {
+    padding: 25px;
     min-height: 110px;
     overflow-y: auto;
     max-height: 155px;
+    background: #fdfdfd;
+    border-bottom: 1px solid #f6f6f6;
 }
 
 #TodayFocus {
+    background: #fdfdfd;
+    padding: 15px;
     min-height: 155px;
     overflow-y: auto;
     max-height: 200px;
@@ -122,13 +119,17 @@ video {
 .chatFooter {
     /* position: absolute;
     bottom: 0; */
+    margin: 0px;
+    padding: 0px;
     height: 50px;
     background-color: #fff;
     line-height: 50px;
     width: 100%;
+    text-align: center;
 }
 
 .chatFooter input {
+    width: 70%;
     height: 34px;
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -138,6 +139,7 @@ video {
 .icon {
     width: 30px;
 }
+
 
 
 /* #myTimeline {
