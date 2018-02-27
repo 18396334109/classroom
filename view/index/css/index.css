@@ -100,7 +100,7 @@ video {
 }
 
 #StudentList {
-    min-height: 23rem;
+    min-height: 240px;
     overflow-y: auto;
     max-height: 23rem;
     padding: 15px;
@@ -113,7 +113,7 @@ video {
 
 .chatBody {
     padding: 25px;
-    min-height: 18rem;
+    min-height: 180px;
     overflow-y: auto;
     max-height: 18rem;
     background: #fdfdfd;
@@ -123,9 +123,9 @@ video {
 #TodayFocus {
     background: #fdfdfd;
     padding: 15px;
-    min-height: 23rem;
+    min-height: 240px;
     overflow-y: auto;
-    max-height: 23rem;
+    max-height: 240px;
 }
 
 .chatFooter {

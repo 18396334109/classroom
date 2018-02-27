@@ -45,40 +45,87 @@
 
 
 @media screen and (max-height:736px){
-    footer,.course{
+    /* footer,.course{
         display: none;    
+    } */
+}
+@media screen and (min-height:600px) and (max-height:667px){
+    .material-container .card-body {
+        height: 432px;
+    }
+    #StudentList {
+        min-height: 240px;
+        overflow-y: auto;
+        max-height: 240px;
+        padding: 15px;
+        background: #fdfdfd;
     }
 
-}
-/* @media screen and (min-height:538px) and (max-height:667px){
-    .material-container .card-body {
-        height: 20rem;
+    .chatBody {
+        padding: 25px;
+        min-height: 180px;
+        overflow-y: auto;
+        max-height: 180px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
     }
-} */
+
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 240px;
+        overflow-y: auto;
+        max-height: 240px;
+    }
+}
 @media screen and (min-height:667px) and (max-height:736px){
     .material-container .card-body {
-        height: 32rem;
+        height: 480px;
+    }
+    #StudentList {
+        min-height: 290px;
+        overflow-y: auto;
+        max-height: 290px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+
+    .chatBody {
+        padding: 25px;
+        min-height: 230px;
+        overflow-y: auto;
+        max-height: 230px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 290px;
+        overflow-y: auto;
+        max-height: 290px;
     }
     
 }
 @media screen and (min-height:750px) and (max-height:800px){
     .material-container .card-body {
-        height: 42rem;
+        height: 532px;
     }
     
     #StudentList {
-        min-height: 26rem;
+        min-height: 340px;
         overflow-y: auto;
-        max-height: 26rem;
+        max-height: 340px;
         padding: 15px;
         background: #fdfdfd;
     }
 
     .chatBody {
         padding: 25px;
-        min-height: 21rem;
+        min-height: 280px;
         overflow-y: auto;
-        max-height: 21rem;
+        max-height: 280px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
@@ -86,28 +133,28 @@
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
-        min-height: 26rem;
+        min-height: 340px;
         overflow-y: auto;
-        max-height: 26rem;
+        max-height: 340px;
     }
 }
 @media screen and (min-height:800px) and (max-height:850px){
     .material-container .card-body {
-        height: 47rem;
+        height: 595px;
     }
     #StudentList {
-        min-height: 30rem;
+        min-height: 400px;
         overflow-y: auto;
-        max-height: 30rem;
+        max-height: 400px;
         padding: 15px;
         background: #fdfdfd;
     }
 
     .chatBody {
         padding: 25px;
-        min-height: 25rem;
+        min-height: 340px;
         overflow-y: auto;
-        max-height: 25rem;
+        max-height: 340px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
@@ -115,28 +162,28 @@
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
-        min-height: 30rem;
+        min-height: 400px;
         overflow-y: auto;
-        max-height: 30rem;
+        max-height: 400px;
     }
 }
 @media screen and (min-height:850px) and (max-height:900px){
     .material-container .card-body {
-        height: 52rem;
+        height: 648px;
     }
     #StudentList {
-        min-height: 35rem;
+        min-height: 450px;
         overflow-y: auto;
-        max-height: 35rem;
+        max-height: 450px;
         padding: 15px;
         background: #fdfdfd;
     }
 
     .chatBody {
         padding: 25px;
-        min-height: 30rem;
+        min-height: 390px;
         overflow-y: auto;
-        max-height: 30rem;
+        max-height: 390px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
@@ -144,28 +191,28 @@
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
-        min-height: 35rem;
+        min-height: 450px;
         overflow-y: auto;
-        max-height: 35rem;
+        max-height: 450px;
     }
 }
 @media screen and (min-height:900px) and (max-height:959px){
     .material-container .card-body {
-        height: 55rem;
+        height: 708px;
     }
     #StudentList {
-        min-height: 39rem;
+        min-height: 510px;
         overflow-y: auto;
-        max-height: 39rem;
+        max-height: 510px;
         padding: 15px;
         background: #fdfdfd;
     }
 
     .chatBody {
         padding: 25px;
-        min-height: 34rem;
+        min-height: 450px;
         overflow-y: auto;
-        max-height: 34rem;
+        max-height: 450px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
@@ -173,28 +220,28 @@
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
-        min-height: 39rem;
+        min-height: 510px;
         overflow-y: auto;
-        max-height: 39rem;
+        max-height: 510px;
     }
 }
 @media screen and (min-height:959px) and (max-height:1024px){
     .material-container .card-body {
-        height: 52rem;
+        height: 648px;
     }
     #StudentList {
-        min-height: 35rem;
+        min-height: 450px;
         overflow-y: auto;
-        max-height: 35rem;
+        max-height: 450px;
         padding: 15px;
         background: #fdfdfd;
     }
 
     .chatBody {
         padding: 25px;
-        min-height: 30rem;
+        min-height: 390px;
         overflow-y: auto;
-        max-height: 30rem;
+        max-height: 390px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
@@ -202,8 +249,8 @@
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
-        min-height: 35rem;
+        min-height: 450px;
         overflow-y: auto;
-        max-height: 35rem;
+        max-height: 450px;
     }
 }
