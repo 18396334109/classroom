@@ -1,39 +1,64 @@
+body, html{  
+    width: 100%;  
+    height: 100%; 
+    padding: 0px; 
+    margin: 0px;
+}  
 .container-fluid {
     padding: 0px;
+    width: 100%;  
+    height: 80%; 
 }
 
 header {
     height: 45px;
+    width: 100%;
     box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
     background: #ffffff;
 }
 
 footer {
-    /* position: absolute; */
-    /* bottom: 3px; */
+    position: fixed;
+    bottom: 3px;
     width: 100%;
 }
-
-.education-module {
-    margin-top: 45px;
-    margin-bottom: 25px;
+.row{
+    height: 100%;
+    width: 100%;
 }
-
-.education-module .card-body {
-    padding: 0px;
+.education-module {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding:0px;
+    height: 100%;
+    width: 100%;
+}
+.col-md-12, .col-lg-12, .col-sm-12, .col-xs-12{
+    padding: 0px 5px;
+}
+.material-container{
+    height: 100%;
+}
+.material-container .card{
+    height: 100%; 
+}
+.material-container .card-body {
+    /* padding: 0px; */
     /* height: 22.5rem; */
-    height: 40rem;
+    height: 39rem;
+    width: 100%;
+    /* height: 80%; */
     background-color: #e4e4e4;
 }
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1}
 
-.teacher-video {
+/* .blackboard .card-body {
+    height: 100%;
     width: 100%;
-    height: 100%;
-}
-
-.blackboard .card {
-    height: 100%;
-}
+} */
 
 video {
     width: 100%;
@@ -66,17 +91,11 @@ video {
 .tab .nav-tabs li a {
     text-align: center;
     width: 100%;
+    padding:10px 0;
 }
-
-
-/* .tab-content .simple-tabs {
-    height: 100%;
-    padding: 0px;
-} */
 
 #section-tabs {
     width: 100%;
-    /* height: 260px; */
     margin: 0 auto;
 }
 
@@ -88,9 +107,9 @@ video {
     background: #fdfdfd;
 }
 
-#chatPanel {
+/* #chatPanel {
     position: relative;
-}
+} */
 
 .chatBody {
     padding: 25px;
