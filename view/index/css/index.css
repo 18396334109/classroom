@@ -35,11 +35,8 @@ body, html{
     box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
 }
 .material-container .card-body {
-    /* padding: 0px; */
-    /* height: 22.5rem; */
     height: 39rem;
     width: 100%;
-    /* height: 80%; */
     background-color: #e4e4e4;
 }
 .clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
@@ -49,6 +46,11 @@ body, html{
     height: 100%;
     width: 100%;
 } */
+.headerIcon{
+    color: #518dbb;
+    float: right;
+    padding: 14px;
+}
 
 video {
     width: 100%;
@@ -99,9 +101,6 @@ video {
     background: #fdfdfd;
 }
 
-/* #chatPanel {
-    position: relative;
-} */
 
 .chatBody {
     padding: 25px;
@@ -121,8 +120,6 @@ video {
 }
 
 .chatFooter {
-    /* position: absolute;
-    bottom: 0; */
     margin: 0px;
     padding: 0px;
     height: 50px;
@@ -138,7 +135,6 @@ video {
     border-radius: 5px;
     line-height: 34px;
     border: 1px solid #ddd;
-    /* padding: 10px; */
 }
 
 .icon {
@@ -148,9 +144,3 @@ video {
 .text-img {
     height: 60%;
 }
-
-
-/* #myTimeline {
-    position: fixed;
-    bottom: 0px;
-} *

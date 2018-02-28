@@ -14,3 +14,7 @@ function sendMessage() {
     $(".chatBody").append(data);
     $("#Message").val('');
 }
+
+function infoToggle(){
+    $(".tab-info").toggle();
+}
