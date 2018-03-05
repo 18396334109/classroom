@@ -31,9 +31,10 @@
     }
 }
 
+
 /* pc */
 
-@media screen and (min-height:600px) and (max-height:667px) and (min-width:1024px){
+@media screen and (min-height:600px) and (max-height:667px) and (min-width:1024px) {
     .material-container .card-body {
         height: 470px;
     }
@@ -44,7 +45,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 235px;
@@ -53,7 +53,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -62,7 +61,8 @@
         max-height: 295px;
     }
 }
-@media screen and (min-height:667px) and (max-height:750px) and (min-width:1024px){
+
+@media screen and (min-height:667px) and (max-height:750px) and (min-width:1024px) {
     .material-container .card-body {
         height: 520px;
     }
@@ -73,7 +73,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 285px;
@@ -82,7 +81,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -90,13 +88,12 @@
         overflow-y: auto;
         max-height: 345px;
     }
-    
 }
-@media screen and (min-height:750px) and (max-height:800px) and (min-width:1024px){
+
+@media screen and (min-height:750px) and (max-height:800px) and (min-width:1024px) {
     .material-container .card-body {
         height: 595px;
     }
-    
     #StudentList {
         min-height: 420px;
         overflow-y: auto;
@@ -104,7 +101,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 360px;
@@ -113,7 +109,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -122,7 +117,8 @@
         max-height: 420px;
     }
 }
-@media screen and (min-height:800px) and (max-height:850px) and (min-width:1024px){
+
+@media screen and (min-height:800px) and (max-height:850px) and (min-width:1024px) {
     .material-container .card-body {
         height: 670px;
     }
@@ -133,16 +129,14 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
-        min-height: 405px;
+        min-height: 435px;
         overflow-y: auto;
-        max-height: 405px;
+        max-height: 435px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -151,7 +145,8 @@
         max-height: 495px;
     }
 }
-@media screen and (min-height:850px) and (max-height:900px) and (min-width:1024px){
+
+@media screen and (min-height:850px) and (max-height:900px) and (min-width:1024px) {
     .material-container .card-body {
         height: 715px;
     }
@@ -162,16 +157,14 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
-        min-height: 435px;
+        min-height: 480px;
         overflow-y: auto;
-        max-height: 435px;
+        max-height: 480px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -180,7 +173,8 @@
         max-height: 540px;
     }
 }
-@media screen and (min-height:900px) and (max-height:959px) and (min-width:1024px){
+
+@media screen and (min-height:900px) and (max-height:959px) and (min-width:1024px) {
     .material-container .card-body {
         height: 765px;
     }
@@ -191,16 +185,14 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
-        min-height: 480px;
+        min-height: 530px;
         overflow-y: auto;
-        max-height: 480px;
+        max-height: 530px;
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -209,7 +201,8 @@
         max-height: 590px;
     }
 }
-@media screen and (min-height:959px) and (max-height:1024px) and (min-width:1024px){
+
+@media screen and (min-height:959px) and (max-height:1024px) and (min-width:1024px) {
     .material-container .card-body {
         height: 715px;
     }
@@ -220,7 +213,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 435px;
@@ -229,7 +221,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -238,6 +229,7 @@
         max-height: 540px;
     }
 }
+
 
 /* phone */
 
@@ -252,7 +244,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 235px;
@@ -261,7 +252,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -270,6 +260,7 @@
         max-height: 295px;
     }
 }
+
 @media screen and (min-height:570px) and (max-height:667px) and (min-width:300px) and (max-width:400px) {
     .material-container .card-body {
         height: 280PX;
@@ -281,7 +272,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 235px;
@@ -290,7 +280,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -299,7 +288,8 @@
         max-height: 295px;
     }
 }
-@media screen and (min-height:667px) and (max-height:700px) and (min-width:375px) and (max-width:500px){
+
+@media screen and (min-height:667px) and (max-height:700px) and (min-width:375px) and (max-width:500px) {
     .material-container .card-body {
         height: 345px;
     }
@@ -310,7 +300,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 285px;
@@ -319,7 +308,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -327,9 +315,9 @@
         overflow-y: auto;
         max-height: 345px;
     }
-    
 }
-@media screen and (min-height:700px) and (max-height:750px) and (min-width:375px) and (max-width:500px){
+
+@media screen and (min-height:700px) and (max-height:750px) and (min-width:375px) and (max-width:500px) {
     .material-container .card-body {
         height: 415px;
     }
@@ -340,7 +328,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 285px;
@@ -349,7 +336,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;
@@ -357,13 +343,12 @@
         overflow-y: auto;
         max-height: 345px;
     }
-    
 }
-@media screen and (min-height:750px) and (max-height:820px) and (min-width:375px) and (max-width:500px){
+
+@media screen and (min-height:750px) and (max-height:820px) and (min-width:375px) and (max-width:500px) {
     .material-container .card-body {
         height: 490px;
     }
-    
     #StudentList {
         min-height: 420px;
         overflow-y: auto;
@@ -371,7 +356,6 @@
         padding: 15px;
         background: #fdfdfd;
     }
-
     .chatBody {
         padding: 25px;
         min-height: 360px;
@@ -380,7 +364,6 @@
         background: #fdfdfd;
         border-bottom: 1px solid #f6f6f6;
     }
-
     #TodayFocus {
         background: #fdfdfd;
         padding: 15px;

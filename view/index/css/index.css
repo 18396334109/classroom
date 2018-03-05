@@ -1,52 +1,74 @@
-body, html{  
-    width: 100%;  
-    height: 100%; 
-    padding: 0px; 
-    margin: 0px;
-}  
-.container-fluid {
+body,
+html {
+    width: 100%;
+    height: 100%;
     padding: 0px;
-    width: 100%;  
-    height: 80%; 
+    margin: 0px;
 }
 
-.row{
+.container-fluid {
+    padding: 0px;
+    width: 100%;
+    height: 80%;
+}
+
+.row {
     height: 100%;
     width: 100%;
 }
+
 .education-module {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 0px;
-    padding:0px;
+    padding: 0px;
     height: 100%;
     width: 100%;
 }
-.col-md-12, .col-lg-12, .col-sm-12, .col-xs-12{
+
+.col-md-12,
+.col-lg-12,
+.col-sm-12,
+.col-xs-12 {
     padding: 0px 5px;
 }
-.material-container{
+
+.material-container {
     height: 100%;
     /* box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1); */
 }
-.material-container .card{
-    height: 100%; 
+
+.material-container .card {
+    height: 100%;
     box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
 }
+
 .material-container .card-body {
     height: 39rem;
     width: 100%;
     background-color: #e4e4e4;
 }
-.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
-.clearfloat{zoom:1}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clearfloat {
+    zoom: 1
+}
+
 
 /* .blackboard .card-body {
     height: 100%;
     width: 100%;
 } */
-.headerIcon{
+
+.headerIcon {
     color: #518dbb;
     float: right;
     padding: 14px;
@@ -84,7 +106,7 @@ video {
 .tab .nav-tabs li a {
     text-align: center;
     width: 100%;
-    padding:10px 0;
+    padding: 10px 0;
 }
 
 #section-tabs {
@@ -100,7 +122,6 @@ video {
     padding: 15px;
     background: #fdfdfd;
 }
-
 
 .chatBody {
     padding: 25px;
@@ -143,4 +164,518 @@ video {
 
 .text-img {
     height: 60%;
+}
+
+
+/* 滚动 */
+
+::-webkit-scrollbar {
+    /* 滚动条整体部分 */
+    width: 5px;
+    margin-right: 2px
+}
+
+::-webkit-scrollbar-button {
+    /* 滚动条两端的按钮 */
+    width: 5px;
+    background-color: e6;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 5px;
+    margin-bottom: 2px
+}
+
+::-webkit-scrollbar-track {
+    /* 外层轨道 */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+    /*内层轨道，滚动条中间部分 */
+    background-color: #CBCBCB;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    /* 滑块 */
+    width: 10px;
+    border-radius: 5px;
+    background: #909090;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    /* 鼠标移入滑块 */
+    background: #707070;
+}
+
+
+/* firefox */
+
+::-moz-scrollbar {
+    /* 滚动条整体部分 */
+    width: 5px;
+    margin-right: 2px
+}
+
+::-moz-scrollbar-button {
+    /* 滚动条两端的按钮 */
+    width: 5px;
+    background-color: e6;
+}
+
+::-moz-scrollbar:horizontal {
+    height: 5px;
+    margin-bottom: 2px
+}
+
+::-moz-scrollbar-track {
+    /* 外层轨道 */
+    border-radius: 10px;
+}
+
+::-moz-scrollbar-track-piece {
+    /*内层轨道，滚动条中间部分 */
+    background-color: #CBCBCB;
+    border-radius: 10px;
+}
+
+::-moz-scrollbar-thumb {
+    /* 滑块 */
+    width: 10px;
+    border-radius: 5px;
+    background: #909090;
+}
+
+::-moz-scrollbar-thumb:hover {
+    /* 鼠标移入滑块 */
+    background: #707070;
+}
+
+
+/* 适配 */
+
+@media only screen and (max-width: 479px) {
+    .tab-info {
+        display: none
+    }
+    .text-img {
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .tab-info {
+        display: none
+    }
+    .text-img {
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .tab-info {
+        display: none
+    }
+    .text-img {
+        height: 60%;
+    }
+}
+
+@media only screen and (min-width: 959px) and (max-width: 1695px) {
+    .text-img {
+        height: 60%;
+    }
+}
+
+
+/* pc */
+
+@media screen and (min-height:600px) and (max-height:667px) and (min-width:1024px) {
+    .material-container .card-body {
+        height: 470px;
+    }
+    #StudentList {
+        min-height: 295px;
+        overflow-y: auto;
+        max-height: 295px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 235px;
+        overflow-y: auto;
+        max-height: 235px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 295px;
+        overflow-y: auto;
+        max-height: 295px;
+    }
+}
+
+@media screen and (min-height:667px) and (max-height:750px) and (min-width:1024px) {
+    .material-container .card-body {
+        height: 520px;
+    }
+    #StudentList {
+        min-height: 345px;
+        overflow-y: auto;
+        max-height: 345px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 285px;
+        overflow-y: auto;
+        max-height: 285px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 345px;
+        overflow-y: auto;
+        max-height: 345px;
+    }
+}
+
+@media screen and (min-height:750px) and (max-height:800px) and (min-width:1024px) {
+    .material-container .card-body {
+        height: 595px;
+    }
+    #StudentList {
+        min-height: 420px;
+        overflow-y: auto;
+        max-height: 420px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 360px;
+        overflow-y: auto;
+        max-height: 360px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 420px;
+        overflow-y: auto;
+        max-height: 420px;
+    }
+}
+
+@media screen and (min-height:800px) and (max-height:850px) and (min-width:1024px) {
+    .material-container .card-body {
+        height: 670px;
+    }
+    #StudentList {
+        min-height: 495px;
+        overflow-y: auto;
+        max-height: 495px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 435px;
+        overflow-y: auto;
+        max-height: 435px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 495px;
+        overflow-y: auto;
+        max-height: 495px;
+    }
+}
+
+@media screen and (min-height:850px) and (max-height:900px) and (min-width:1024px) {
+    .material-container .card-body {
+        height: 715px;
+    }
+    #StudentList {
+        min-height: 540px;
+        overflow-y: auto;
+        max-height: 540px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 480px;
+        overflow-y: auto;
+        max-height: 480px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 540px;
+        overflow-y: auto;
+        max-height: 540px;
+    }
+}
+
+@media screen and (min-height:900px) and (max-height:959px) and (min-width:1024px) {
+    .material-container .card-body {
+        height: 765px;
+    }
+    #StudentList {
+        min-height: 590px;
+        overflow-y: auto;
+        max-height: 590px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 530px;
+        overflow-y: auto;
+        max-height: 530px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 590px;
+        overflow-y: auto;
+        max-height: 590px;
+    }
+}
+
+@media screen and (min-height:959px) and (max-height:1024px) and (min-width:1024px) {
+    .material-container .card-body {
+        height: 715px;
+    }
+    #StudentList {
+        min-height: 540px;
+        overflow-y: auto;
+        max-height: 540px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 435px;
+        overflow-y: auto;
+        max-height: 435px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 540px;
+        overflow-y: auto;
+        max-height: 540px;
+    }
+}
+
+
+/* phone */
+
+@media screen and (min-height:500px) and (max-height:570px) and (min-width:300px) and (max-width:400px) {
+    .material-container .card-body {
+        height: 235px;
+    }
+    #StudentList {
+        min-height: 295px;
+        overflow-y: auto;
+        max-height: 295px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 235px;
+        overflow-y: auto;
+        max-height: 235px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 295px;
+        overflow-y: auto;
+        max-height: 295px;
+    }
+}
+
+@media screen and (min-height:570px) and (max-height:667px) and (min-width:300px) and (max-width:400px) {
+    .material-container .card-body {
+        height: 280PX;
+    }
+    #StudentList {
+        min-height: 295px;
+        overflow-y: auto;
+        max-height: 295px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 235px;
+        overflow-y: auto;
+        max-height: 235px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 295px;
+        overflow-y: auto;
+        max-height: 295px;
+    }
+}
+
+@media screen and (min-height:667px) and (max-height:700px) and (min-width:375px) and (max-width:500px) {
+    .material-container .card-body {
+        height: 345px;
+    }
+    #StudentList {
+        min-height: 345px;
+        overflow-y: auto;
+        max-height: 345px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 285px;
+        overflow-y: auto;
+        max-height: 285px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 345px;
+        overflow-y: auto;
+        max-height: 345px;
+    }
+}
+
+@media screen and (min-height:700px) and (max-height:750px) and (min-width:375px) and (max-width:500px) {
+    .material-container .card-body {
+        height: 415px;
+    }
+    #StudentList {
+        min-height: 345px;
+        overflow-y: auto;
+        max-height: 345px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 285px;
+        overflow-y: auto;
+        max-height: 285px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 345px;
+        overflow-y: auto;
+        max-height: 345px;
+    }
+}
+
+@media screen and (min-height:750px) and (max-height:820px) and (min-width:375px) and (max-width:500px) {
+    .material-container .card-body {
+        height: 490px;
+    }
+    #StudentList {
+        min-height: 420px;
+        overflow-y: auto;
+        max-height: 420px;
+        padding: 15px;
+        background: #fdfdfd;
+    }
+    .chatBody {
+        padding: 25px;
+        min-height: 360px;
+        overflow-y: auto;
+        max-height: 360px;
+        background: #fdfdfd;
+        border-bottom: 1px solid #f6f6f6;
+    }
+    #TodayFocus {
+        background: #fdfdfd;
+        padding: 15px;
+        min-height: 420px;
+        overflow-y: auto;
+        max-height: 420px;
+    }
+}
+
+
+/* 教程控制 */
+
+.course h1 {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.course ul,
+dl {
+    list-style-type: none;
+}
+
+.course li {
+    vertical-align: top;
+}
+
+.course {
+    height: auto;
+    background: #FFF;
+}
+
+.course i {
+    color: #b4c4d7;
+}
+
+.course_nr li {
+    float: right;
+    width: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.shiji {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -20px;
+    display: none;
+}
+
+.shiji h1 {
+    height: 67px;
+    line-height: 67px;
+    color: #518dbb;
+    font-weight: bold;
+    background: url(ico11.gif) no-repeat center top;
+    margin-bottom: 8px;
 }
