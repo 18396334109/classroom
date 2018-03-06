@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>管理课程</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../../assets//plugins/bootstrap/css/bootstrap.min.css">
+
+    <!-- Font CSS -->
+    <link rel="stylesheet" href="../../css/all_icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/kavach.min.css">
+
+    <link rel="stylesheet" href="./css/manage.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="page-header">
+            <h3>课程管理中心</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="card course-list">
+                    <div class="card-header">
+                        <div class="pull-right">
+                            <div class="btn-group">
+                                <div class="pull-right">
+                                    <i class="fa fa-plus-square add-info" data-toggle="modal" data-target="#addCourse"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="card-title m-b-0">课程</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr class="row-name">
+                                        <th>课程名称</th>
+                                        <th>授课老师</th>
+                                        <th>课程时长</th>
+                                        <th>课程开始时间</th>
+                                        <th>操作</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="row-content">
+                                        <td>HSK1</td>
+                                        <td>徐老师</td>
+                                        <td>1h</td>
+                                        <td>2018.03.06 7:00</td>
+                                        <td>
+                                            <a class="btn btn-danger trash" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                            <a class="btn btn-info edit" data-toggle="modal" data-target="#editCourse" aria-label="Settings">
+                                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="row-content">
+                                        <td>HSK1</td>
+                                        <td>徐老师</td>
+                                        <td>1h</td>
+                                        <td>2018.03.06 9:00</td>
+                                        <td>
+                                            <a class="btn btn-danger trash" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                            <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="row-content">
+                                        <td>HSK1</td>
+                                        <td>徐老师</td>
+                                        <td>1h</td>
+                                        <td>2018.03.06 11:00</td>
+                                        <td>
+                                            <a class="btn btn-danger trash" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                            <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="row-content">
+                                        <td>HSK1</td>
+                                        <td>徐老师</td>
+                                        <td>1h</td>
+                                        <td>2018.03.06 13:00</td>
+                                        <td>
+                                            <a class="btn btn-danger trash" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                            <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="row-content">
+                                        <td>HSK1</td>
+                                        <td>徐老师</td>
+                                        <td>1h</td>
+                                        <td>2018.03.06 15:00</td>
+                                        <td>
+                                            <a class="btn btn-danger trash" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                            <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="row-content">
+                                        <td>HSK1</td>
+                                        <td>徐老师</td>
+                                        <td>1h</td>
+                                        <td>2018.03.06 17:00</td>
+                                        <td>
+                                            <a class="btn btn-danger trash" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                            </a>
+                                            <a class="btn btn-info edit" href="path/to/settings" aria-label="Settings">
+                                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="addCourse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            &times;
+                        </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        添加课程
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <form>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-book" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" placeholder="课程名称">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" placeholder="授课老师">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" placeholder="课程时长">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                    <input type="date" class="form-control" placeholder="开始时间">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info">
+                                提交更改
+                            </button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">关闭
+                        </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="editCourse" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;
+                            </button>
+                    <h4 class="modal-title" id="myModalLabel">
+                        编辑课程
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <form>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-book" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" placeholder="课程名称">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" placeholder="授课老师">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" placeholder="课程时长">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                    <input type="date" class="form-control" placeholder="开始时间">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info">
+                                    提交更改
+                                </button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">关闭
+                            </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- jQuery -->
+<script src="../../assets/plugins/jquery/dist/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+</html>

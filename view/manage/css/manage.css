@@ -1,0 +1,12 @@
+.page-header {
+    text-align: center;
+}
+
+.course-list {
+    box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
+}
+
+.add-info {
+    color: #b4c4d7;
+    font-size: 18px;
+}

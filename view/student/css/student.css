@@ -1,0 +1,68 @@
+.page-header {
+    text-align: center;
+}
+
+.course-list {
+    box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
+}
+
+.btn-start-study,
+.btn-audition {
+    color: #fff;
+    margin: 0px auto;
+    height: 25%;
+    width: 100px;
+}
+
+.enter-todo {
+    background: #f4f4f4;
+    height: 300px;
+    border-bottom: 1px solid #e8eef1;
+}
+
+.btn-radius {
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 50px;
+    padding: 6px 20px;
+    min-width: 110px;
+}
+
+.todo-content {
+    margin: 0px auto;
+    text-align: center;
+    height: 60%;
+    width: 200px;
+    display: flex;
+    /*Flex布局*/
+    display: -webkit-flex;
+    /* Safari */
+    align-items: center;
+    /*指定垂直居中*/
+}
+
+.todo-content-title {
+    margin: 0px auto;
+    text-align: center;
+    height: 30%;
+    width: 200px;
+    display: flex;
+    /*Flex布局*/
+    display: -webkit-flex;
+    /* Safari */
+    align-items: center;
+    /*指定垂直居中*/
+}
+
+.todo-content-info {
+    margin: 0px auto;
+    text-align: center;
+    height: 10%;
+    width: 200px;
+    display: flex;
+    /*Flex布局*/
+    display: -webkit-flex;
+    /* Safari */
+    align-items: center;
+    /*指定垂直居中*/
+}

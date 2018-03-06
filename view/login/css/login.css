@@ -1,0 +1,15 @@
+.login-btn {
+    background-color: #b4c4d7;
+    border-radius: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    display: table;
+    margin: 0 auto;
+    width: 160px;
+    padding: 12px 20px;
+    color: #ffffff;
+}
+
+.login-panel {
+    box-shadow: 0 15px 15px rgba(15, 37, 64, 0.1);
+}
